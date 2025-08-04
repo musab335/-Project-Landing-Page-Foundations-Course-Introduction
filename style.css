@@ -1,0 +1,94 @@
+/* styles.css */
+/* RESETS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL STYLES */
+body {
+  font-family: 'Roboto', sans-serif; /* From design guide */
+}
+
+/* HERO SECTION */
+.hero {
+  background-color: #1F2937; /* Dark blue */
+  color: #F9FAF8; /* White */
+  padding: 20px 10%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.hero-content {
+  padding: 100px 0;
+  max-width: 50%;
+}
+
+/* FEATURES SECTION */
+.features {
+  padding: 50px 10%;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  max-width: 150px;
+}
+
+.card-image {
+  border: 3px solid #3882F6; /* Blue */
+  border-radius: 10px;
+  height: 150px;
+}
+
+/* TESTIMONIAL SECTION */
+.testimonial {
+  background-color: #E5E7EB; /* Light gray */
+  padding: 100px 20%;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+/* CTA SECTION */
+.cta {
+  padding: 80px 10%;
+}
+
+.cta-box {
+  background-color: #3882F6; /* Blue */
+  color: white;
+  border-radius: 8px;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 30px;
+}
